@@ -1,11 +1,13 @@
 # Block everything by default
 /*
 
+!/next-migration/
 # Whitelist requested directories and files
 !/AML.Core.Web.API/
 !/WatchDog/
 !/.gitignore
 !/Jenkinsfile
+!/next-migration/**
 !/README.md
 
 # Ensure sub-directories are properly whitelisted
